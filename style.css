@@ -1,0 +1,84 @@
+/* -----------------------urls--------------------------------- */
+@import url(font.css);
+@import url(color.css);
+@import url(design.css);
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ______________________________________START OF umrahpackage ____________________________________________________ */
+.umrahpackage {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.umrahpackage a {
+    color: white;
+    text-decoration: none;
+}
+/* ______________________________________START OF navbarsocial ____________________________________________________ */
+.navbar {
+    background-color: blueviolet;
+    height: 150px;
+    display: flex;
+}
+.socialmedia {
+    background-color: aquamarine;
+}
+.facebook {
+    background-color: rgb(134, 226, 43);
+    width: 20px;
+    height: 20px;
+}
+.insta {
+    background-color: rgb(43, 202, 226);
+    width: 20px;
+    height: 20px;
+}
+.youtube {
+    background-color: rgb(43, 70, 226);
+    width: 20px;
+    height: 20px;
+}
+.tiktok {
+    background-color: rgb(49, 226, 43);
+    width: 20px;
+    height: 20px;
+}
+/* ----------------------------------logostart----------------- */
+.logo {
+
+}
+.logo img{
+    background-color: yellow;
+    width: 150px;
+    height: 80px;
+    
+}
+.icon {
+    width: 20px;
+    height: 20px;
+} 
+.info {
+    background-color: brown;
+}
+.search {
+    background-color: blue;
+}
+.profile {
+    background-color: pink;
+}
+.heart {
+    background-color: greenyellow;
+}
+.shopping {
+    background-color: red;
+}
