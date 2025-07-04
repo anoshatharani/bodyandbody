@@ -15,70 +15,85 @@
     background-color: black;
     color: white;
     display: flex;
-    height: 50px;
+    height: 40px;
     align-items: center;
     justify-content: center;
+    
     /* flex-wrap: wrap; */
 }
-.umrahpackage a {
+.umrahpackage a{
     color: white;
     text-decoration: none;
+    
 }
 /* ______________________________________START OF navbarsocial ____________________________________________________ */
 .navbar {
     background-color: blueviolet;
-    height: 150px;
+    width: 100vw;
+    height: 100px;
     display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 3000;
 }
 .socialmedia {
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    align-items: center;
+    flex-grow: 1;
+    }
+.socialmedia img{
     background-color: aquamarine;
-}
-.facebook {
-    background-color: rgb(134, 226, 43);
     width: 20px;
     height: 20px;
 }
-.insta {
-    background-color: rgb(43, 202, 226);
-    width: 20px;
-    height: 20px;
-}
-.youtube {
-    background-color: rgb(43, 70, 226);
-    width: 20px;
-    height: 20px;
-}
-.tiktok {
-    background-color: rgb(49, 226, 43);
-    width: 20px;
-    height: 20px;
-}
+
 /* ----------------------------------logostart----------------- */
 .logo {
-     background-color: rebeccapurple;
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
 }
 .logo img{
-    background-color: yellow;
-    width: 150px;
-    height: 80px;
-    
+    /* background-color: yellow; */
+    width: 160px;
+    height: 70px;
 }
-.icon {
+/* ------------------------infostart---------------------------- */
+.info {
+    /* background-color: brown; */
+    display: flex;
+    gap: 20px;
+    padding-left: 400px;
+    padding-right: 20px;
+    align-items: center;
+}
+.info img{
     width: 20px;
     height: 20px;
-} 
-.info {
-    background-color: brown;
 }
-.search {
-    background-color: blue;
+
+/* ----------------------------Listing home-----------------------  */
+.nav2 {
+    background-color: rgb(5, 71, 128);
+    display: flex;
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
 }
-.profile {
-    background-color: pink;
+.listing {
+    background-color: rgb(234, 155, 37);
+    width: 1500px;
 }
-.heart {
-    background-color: greenyellow;
-}
-.shopping {
-    background-color: red;
+.navlist {
+    color: rgb(198, 23, 41);
+    display: flex;
+    list-style-type: none;
+   justify-content: center;
+   gap: 30px;
 }
