@@ -28,7 +28,7 @@
 }
 /* ______________________________________START OF navbarsocial ____________________________________________________ */
 .navbar {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 100vw;
     height: 100px;
     display: flex;
@@ -43,15 +43,47 @@
     align-items: center;
     flex-grow: 1;
     }
+
 .socialmedia img{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 20px;
     height: 20px;
 }
-
+.facebook {
+    transition: margin-bottom 1s, color 1s;
+}
+.facebook:hover {
+    margin-bottom: 10px ;
+    background-color: blue;
+     cursor: pointer;
+}
+.insta {
+    transition: margin-bottom 1s, color 1s;
+}
+.insta:hover {
+    margin-bottom: 10px ;
+    background-color: rgb(245, 19, 215);
+     cursor: pointer;
+}
+.youtube {
+    transition: margin-bottom 1s, color 1s;
+}
+.youtube:hover {
+    margin-bottom: 10px ;
+    background-color: rgb(218, 23, 23);
+     cursor: pointer;
+}
+.tiktok {
+    transition: margin-bottom 1s, color 1s;
+}
+.tiktok:hover {
+    margin-bottom: 10px ;
+    background-color: rgb(4, 4, 4);
+     cursor: pointer;
+}
 /* ----------------------------------logostart----------------- */
 .logo {
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     display: flex;
     align-items: center;
     flex-grow: 1;
@@ -75,25 +107,36 @@
     width: 20px;
     height: 20px;
 }
-
+.info img:hover {
+    background-color:burlywood ;
+    cursor: pointer;
+}
 /* ----------------------------Listing home-----------------------  */
 .nav2 {
-    background-color: rgb(5, 71, 128);
+    /* background-color: rgb(5, 71, 128); */
     display: flex;
     position: sticky;
     top: 0px;
     height: 80px;
     justify-content: center;
     align-items: center;
+     cursor: pointer;
+}
+nav li:hover {
+    color: orange;
 }
 .listing {
-    background-color: rgb(234, 155, 37);
+    /* background-color: rgb(234, 155, 37); */
     width: 1500px;
 }
 .navlist {
-    color: rgb(198, 23, 41);
+    /* color: rgb(198, 23, 41); */
     display: flex;
     list-style-type: none;
    justify-content: center;
    gap: 30px;
 }
+ li:nth-child(2) {
+    color: rgb(55, 179, 55);
+ }
+ 
