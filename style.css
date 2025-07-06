@@ -9,7 +9,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
+
 /* ______________________________________START OF umrahpackage ____________________________________________________ */
 .umrahpackage {
     background-color: black;
@@ -18,69 +20,78 @@
     height: 40px;
     align-items: center;
     justify-content: center;
-    
+
     /* flex-wrap: wrap; */
 }
+
 .umrahpackage a{
     color: white;
     text-decoration: none;
     
 }
+
 /* ______________________________________START OF navbarsocial ____________________________________________________ */
 .navbar {
-    /* background-color: blueviolet; */
+    background-color: rgb(255, 255, 255);
     width: 100vw;
-    height: 100px;
+    height: 100px; 
     display: flex;
-    position: sticky;
+    position: sticky; 
     top: 0px;
     z-index: 3000;
+    flex-wrap: wrap;
 }
+
 .socialmedia {
     display: flex;
     gap: 20px;
     padding-left: 20px;
     align-items: center;
     flex-grow: 1;
-    }
+}
 
-.socialmedia img{
+.socialmedia img {
     /* background-color: aquamarine; */
     width: 20px;
     height: 20px;
 }
+
 .facebook {
-    transition: margin-bottom 1s, color 1s;
+    transition: margin-bottom 1s;
 }
+
 .facebook:hover {
-    margin-bottom: 10px ;
-    background-color: blue;
-     cursor: pointer;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
+
 .insta {
-    transition: margin-bottom 1s, color 1s;
+    transition: margin-bottom 1s;
 }
+
 .insta:hover {
-    margin-bottom: 10px ;
-    background-color: rgb(245, 19, 215);
-     cursor: pointer;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
+
 .youtube {
-    transition: margin-bottom 1s, color 1s;
+    transition: margin-bottom 1s;
 }
+
 .youtube:hover {
-    margin-bottom: 10px ;
-    background-color: rgb(218, 23, 23);
-     cursor: pointer;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
+
 .tiktok {
-    transition: margin-bottom 1s, color 1s;
+    transition: margin-bottom 1s;
 }
+
 .tiktok:hover {
-    margin-bottom: 10px ;
-    background-color: rgb(4, 4, 4);
-     cursor: pointer;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
+
 /* ----------------------------------logostart----------------- */
 .logo {
     /* background-color: rebeccapurple; */
@@ -89,11 +100,13 @@
     flex-grow: 1;
     justify-content: center;
 }
-.logo img{
+
+.logo img {
     /* background-color: yellow; */
     width: 160px;
     height: 70px;
 }
+
 /* ------------------------infostart---------------------------- */
 .info {
     /* background-color: brown; */
@@ -103,14 +116,16 @@
     padding-right: 20px;
     align-items: center;
 }
-.info img{
+
+.info img {
     width: 20px;
     height: 20px;
 }
-.info img:hover {
-    background-color:burlywood ;
+
+.info img:hover{
     cursor: pointer;
 }
+
 /* ----------------------------Listing home-----------------------  */
 .nav2 {
     /* background-color: rgb(5, 71, 128); */
@@ -120,23 +135,55 @@
     height: 80px;
     justify-content: center;
     align-items: center;
-     cursor: pointer;
+    cursor: pointer;
+    flex-wrap: wrap;
 }
+
 nav li:hover {
     color: orange;
 }
+
 .listing {
     /* background-color: rgb(234, 155, 37); */
     width: 1500px;
 }
+
 .navlist {
     /* color: rgb(198, 23, 41); */
     display: flex;
     list-style-type: none;
-   justify-content: center;
-   gap: 30px;
+    justify-content: center;
+    gap: 30px;
 }
- li:nth-child(2) {
+
+li:nth-child(2) {
     color: rgb(55, 179, 55);
- }
- 
+}
+
+/* -----------------------------herosectionstart ----------------------------*/
+.mainstart {
+    /* background-color: aquamarine; */
+}
+
+/* -------------------------------cardsreviews-------------------------- */
+.newarival {
+    background-color: rgb(255, 255, 255);
+    /* padding: 30px; */
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.allcards{
+    /* background-color: blue; */
+    display: flex;
+    gap: 30px;
+    padding-right: 50px;
+    padding-left: 60px;
+    cursor: grab;
+    flex-wrap: wrap;
+}
+.card {
+    text-align: center;
+    border: none;
+    line-height: 10px;
+}
