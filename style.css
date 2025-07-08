@@ -19,24 +19,23 @@
     display: flex;
     height: 40px;
     align-items: center;
-    justify-content: center;
-
+    justify-content: center; 
     /* flex-wrap: wrap; */
 }
 
-.umrahpackage a{
+.umrahpackage a {
     color: white;
     text-decoration: none;
-    
+
 }
 
 /* ______________________________________START OF navbarsocial ____________________________________________________ */
 .navbar {
     background-color: rgb(255, 255, 255);
     width: 100vw;
-    height: 100px; 
+    height: 100px;
     display: flex;
-    position: sticky; 
+    position: sticky;
     top: 0px;
     z-index: 3000;
     flex-wrap: wrap;
@@ -115,6 +114,7 @@
     padding-left: 400px;
     padding-right: 20px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .info img {
@@ -122,7 +122,7 @@
     height: 20px;
 }
 
-.info img:hover{
+.info img:hover {
     cursor: pointer;
 }
 
@@ -173,17 +173,186 @@ li:nth-child(2) {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
-.allcards{
+
+.allcards {
     /* background-color: blue; */
     display: flex;
     gap: 30px;
-    padding-right: 50px;
-    padding-left: 60px;
+    flex-wrap: wrap;
+    padding-left: 100px;
     cursor: grab;
     flex-wrap: wrap;
 }
+
 .card {
     text-align: center;
     border: none;
     line-height: 10px;
+
 }
+
+/* ---------------------CATOGERY SECTION======================= */
+.CATEGORY {
+    background-color: rgb(255, 255, 255);
+    /* padding: 30px; */
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/* ----------------STARTCATOGERY----------------------- */
+.cardmain {
+    /* background-color: brown; */
+    width: 1500px;
+    cursor: pointer;
+    display: flex;
+    padding-left: 190px;
+    flex-wrap: wrap;
+}
+
+.cardsimg {
+    background-color: yellow;
+    margin: 15px;
+}
+
+.cardsimg img {
+    width: 370px;
+    height: 370px;
+}
+
+/* ------------------------------start best selliong---------------------- */
+.SELL {
+    /* background-color: rgb(127, 29, 29); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.bsell {
+    /* background-color: pink; */
+    flex-grow: 1;
+    margin-left: 740px;
+    flex-wrap: wrap;
+}
+
+.hsell {
+    margin-left: 200px;
+    flex-grow: 1;
+    /* background-color: blue; */
+}
+
+.SELL button {
+    /* background-color: aqua; */
+    padding: 5px 30px 5px 30px;
+    color: white;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.SELL button:hover {
+    background-color: orange;
+}
+
+/* ----------------video reviews=-------------------- */
+.RECOMMENDED {
+    /* background-color: rgb(255, 255, 255); */
+    /* padding: 30px; */
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.videosmain {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    gap: 30px;
+    margin-left: 230px;
+ flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.videosmain video {
+    border-radius: 20px;
+}
+
+/* -------------------------------------section1----------------------- */
+.faqs {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+}
+
+.section1main {
+    /* background-color: yellow; */
+    margin-left: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    flex-wrap: wrap;
+}
+.plus1 {
+    /* background-color: aqua; */
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+    width: 40px;
+    height: 44px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+.plus2 {
+    /* background-color: rgb(36, 25, 107); */
+    display: inline-block;
+    position: absolute;
+    top: 55px;
+    left: 1000px;
+    font-size: 30px;
+    width: 40px;
+    height: 44px;
+    color: white;
+    background-color: black;
+}
+.plus3 {
+    /* background-color: rgb(255, 0, 76); */
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    left: 1000px;
+    width: 40px;
+    height: 44px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+.deliverytime {
+    background-color: #f6f6f8;
+    width: 1100px;
+    height: 30px;
+    /* margin-bottom: 15px; */
+    padding: 10px 10px 35px 30px;
+    margin-left: -60px;
+    margin-bottom: 10px;
+}
+.parcelupdate {
+    background-color: #f6f6f8;
+    width: 1100px;
+    height: 30px;
+    margin: 10px;
+    margin-left: -60px;
+    padding: 10px 10px 35px 30px;
+}
+.information {
+    background-color: #f6f6f8;
+    width: 1100px;
+    height: 30px;
+    margin-left: -60px;
+    margin-top: 10px;
+    padding: 10px 10px 35px 30px;
+}
+/* ----------------------section2---------------------------- */
